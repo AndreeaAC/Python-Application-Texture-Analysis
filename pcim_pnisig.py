@@ -5,7 +5,7 @@ import pathlib
 import skimage.feature as ft
 from scipy.spatial.distance import euclidean
 import time
-
+ 
 def DifBoxCounting(img, r, count):
 
     (width, height) = img.size
